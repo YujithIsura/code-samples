@@ -31,6 +31,7 @@ class GalleryApp extends StatelessWidget {
 
   final String? initialRoute;
   final bool isTestMode;
+  static const String loginRoute = '/rally/login';
 
   @override
   Widget build(BuildContext context) {
